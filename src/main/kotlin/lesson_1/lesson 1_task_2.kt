@@ -7,6 +7,6 @@ fun main() {
 
     println(numberOfOrders)
     println(gratitudeForBuy)
-    println(numberOfEmployees)
+    println("Нас покинул один сотрудник, теперь нас: $numberOfEmployees")
 }
 
