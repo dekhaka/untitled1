@@ -8,6 +8,6 @@ fun main() {
     minute = 55
 
     println(year)
-    println("$hour:$minute")
+    println(String.format("%02d:%02d", hour, minute))
 }
 
